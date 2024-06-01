@@ -1,0 +1,6 @@
+@import "nullstyle.css";
+
+* {
+	background-color: #000;
+	color: #ffdf00;
+}
