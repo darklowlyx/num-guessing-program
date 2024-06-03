@@ -1,6 +1,41 @@
 @import "nullstyle.css";
 
+:root{
+	--white: #f0f0f0;
+	--black: #101010;
+}
+
 * {
-	background-color: #000;
-	color: #ffdf00;
+	background-color: var(--black);
+	color: var(--white);
+	font-family: monospace;
+}
+
+.wrapper{
+	height: 100dvh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 3.125rem;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+#input{
+	font-size: 2rem;
+	max-width: 90px;
+	height: 90px;
+	padding: 20px;
+	-moz-appearance: textfield;
+  appearance: textfield;
+	outline: none;
+	border: 2px solid var(--white);
+	border-radius: 50%;
+}
+
+#result{
+	font-size: 2.5rem;
 }
