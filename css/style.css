@@ -36,6 +36,23 @@ h1{
 	border-radius: 50%;
 }
 
+#input:focus{
+	box-shadow: inset 0 0 10px var(--white), 0 0 10px var(--white);
+	transition: all 0.3s ease;
+}
+#submit{
+	padding: 10px 15px;
+	border: 2px solid var(--white);
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+#submit:hover{
+	background-color: var(--white);
+	color: var(--black);
+	transition: all 0.3s ease;
+}
+
 #result{
 	font-size: 2.5rem;
 }
