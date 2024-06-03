@@ -9,6 +9,7 @@
 	background-color: var(--black);
 	color: var(--white);
 	font-family: monospace;
+	
 }
 
 .wrapper{
@@ -25,15 +26,16 @@ h1{
 }
 
 #input{
-	font-size: 2rem;
-	max-width: 90px;
-	height: 90px;
-	padding: 20px;
+	width: 100px;
+	height: 100px;
+	padding: 15px;
 	-moz-appearance: textfield;
   appearance: textfield;
 	outline: none;
 	border: 2px solid var(--white);
 	border-radius: 50%;
+	text-align: center;
+	font-size: 2rem;
 }
 
 #input:focus{
