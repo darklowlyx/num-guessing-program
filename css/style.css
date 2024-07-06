@@ -8,8 +8,13 @@
 * {
 	background-color: var(--black);
 	color: var(--white);
-	font-family: "Archivo Black", Arial, sans-serif;
-	
+	font-family: "Rubik Mono One", Arial, sans-serif;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 .wrapper{
